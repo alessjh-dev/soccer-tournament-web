@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "public/**",
+        "use": "@now/php",
+        "config": { "maxLambdaSize": "15mb" }
+      }
+    ]
+  }
+  
